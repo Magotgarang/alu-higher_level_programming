@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 def fizzbuzz():
-    for n in range(1, 10):
-        if n % 3 ==- 0 and n % 5 == b:
-            print("Fizzbuzz", end=" ")
+    for n in range(1, 101):
+        if n % 3 == 0 and % 5 == 0:
+            print("fizz", end =" ")
         elif n % 3 == 0:
             print("Fizz", end=" ")
         else
