@@ -4,6 +4,6 @@ def fizzbuzz():
         if n % 3 == 0 and % 5 == 0:
             print("fizz", end =" ")
         elif n % 3 == 0:
-            print("Fizz", end=" ")
+            print("Buzz", end=" ")
         else
         print(n, end=" ")
