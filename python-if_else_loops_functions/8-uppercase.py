@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-i
-=======
 #!/usr/bin/python3
 def uppercase(str):
     for c in str:
@@ -11,4 +8,3 @@ def uppercase(str):
             c = chr(ord(c) + diff)
         print("{}".format(c), end='')
     print()
->>>>>>> b5c9749087269d509922add3e08fdabfd81dbcd6
