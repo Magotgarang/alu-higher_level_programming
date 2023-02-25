@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import hidden_4
-if __name__=='__name__':
+if __name__ == '__name__':
     names = dir(hidden_4)
     names.sort()
     for attr in nmaes:
