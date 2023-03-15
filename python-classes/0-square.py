@@ -1,5 +1,4 @@
-#!/usr/bin/ptyhon3
-"""class square that defines a square"""
+#!/usr/bin/python3
 
 class squre:
     pass
