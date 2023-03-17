@@ -19,6 +19,7 @@ def nqueens_helper(n, row, board, solutions):
                 nqueens_helper(n, row + 1, board, solutions)
                 board.pop()
 
+
 def nqueens(n):
     if not isinstance(n, int):
         print("N must be a number")
