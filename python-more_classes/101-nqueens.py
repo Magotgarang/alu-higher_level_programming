@@ -8,6 +8,7 @@ def is_valid(board, row, col):
             return False
     return True
 
+
 def nqueens_helper(n, row, board, solutions):
     if row == n:
         solutions.append(board.copy())
