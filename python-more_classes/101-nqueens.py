@@ -37,7 +37,7 @@ if __name__ == "__main__":
         n = int(sys.argv[1])
         nqueens(n)
     except ValueError:
-       
-
         print("N must be a number")
        sys.exit(1)
+
+
