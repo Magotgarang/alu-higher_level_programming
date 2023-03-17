@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import sys
 
+
 def is_valid(board, row, col):
     for r, c in board:
         if c == col or r + c == row + col or r - c == row - col:
