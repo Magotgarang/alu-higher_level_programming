@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+m#!/usr/bin/python3
 import sys
 
 def is_valid(board, row, col):
@@ -38,4 +38,4 @@ if __name__ == "__main__":
         nqueens(n)
     except ValueError:
         print("N must be a number")
-       sys.exit(1)
+        sys.exit(1)
