@@ -3,8 +3,8 @@
 
 
 class student:
-    """contains student data"""
-
+    """contains student data
+    """
 
     def __init__(self, first_name, last_name, age):
         self.first_name = first_name
