@@ -1,5 +1,5 @@
 -- a script that displays the max temperature
--- of ecah state (ordered by state name).
+-- of each state (ordered by state name).
 SELECT state, MAX(value) AS max_temp
 FROM temperatures
 GROUP BY state
