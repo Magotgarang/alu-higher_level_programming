@@ -7,5 +7,5 @@ exports.esrever = function (list) {
     const valueAtIndex = list[i];
     reversedlist.push(valueAtIndex);
   }
-  return reversedlist
+  return reversedlist;
 };
