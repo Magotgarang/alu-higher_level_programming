@@ -1,1 +1,1 @@
-vaScript - Web jQuery
+JavaScript - Web jQuery
