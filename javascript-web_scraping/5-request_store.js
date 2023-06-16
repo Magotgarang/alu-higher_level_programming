@@ -6,13 +6,13 @@ const url = process.argv[2];
 const filePath = process.argv[3];
 
 request.get(url, async function (err, res) {
-  if (err);
+  if (err) {
     console.log(err);
   } else {
     await fs.writeFile(filePath, res.body, (err) => {
-     if (err) {
-       console.log(err);
-     }
-   });
+      if (err) {
+        console.log(err);
+      }
+    });
   }
-}); 
+});
