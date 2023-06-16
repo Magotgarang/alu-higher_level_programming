@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 const request = require('request');
-const url = processs.argv[2];
+const url = process.argv[2];
 let count = 0;
 let data;
 
@@ -13,8 +13,8 @@ request.get(url, function (err, res) {
   data.forEach((obj) => {
     obj.characters.forEach((charcter) =>- {
       if (character.includes('/18/')) count++;
-});
-});
-}
-console.log(count);
+    });
+  });
+ }
+ console.log(count);
 });
